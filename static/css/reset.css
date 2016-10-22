@@ -1,0 +1,24 @@
+/*去掉固定样式*/
+body,h1,h2,h3,h4,h5,h6,ul,dd,p,input,select{
+	margin: 0 ;
+	padding: 0;
+}
+/*去掉ul的列表符号*/
+ul{list-style: none;}
+/*去掉a标签的下划线*/
+em{font-style: normal;}
+a{text-decoration: none;}
+/*ie浏览器图想外有边框*/
+image{
+	border: 0;
+}
+h1,h2,h3,h4,h5,h6{font-size: 100%}
+/*定义公共类.clearfix*/
+.clearfix:before,.clearfix:after{
+	content:'';
+	display:table;
+}
+.clearfix:after{
+	clear:both;
+}
+.clearfix{zoom:1;}

@@ -1,0 +1,85 @@
+$def with(todos)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>天天生鲜_注册页</title>
+	<link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/main.css">
+	<script type="text/javascript" src="/static/js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="/static/js/register.js"></script>
+</head>
+<body>
+	<div class="letter clearfix">
+	<div class="left_logo ">
+		<a href="index.html"><img src="/static/images/log-regist.png"></a>
+		<h3>足不出户·新鲜每一天</h3>
+		<div class="reg_banner"></div>
+
+	</div>
+	<div class="right_message">
+		<div class="register_title">
+			<h2>用户注册</h2>
+			<a href="login.html">登录</a>
+		</div>
+
+		<div class="reg_form clearfix" id="reg_form">
+
+				<form method='post' >
+				<ul>
+					<li>
+						<label>用户名:</label>
+						<input type="text" name="user_name" id="user_name">
+						<span class="error_tip">提示信息</span>
+					</li>					
+					<li>
+						<label>密码:</label>
+						<input type="password" name="password" id="pwd">
+						<span class="error_tip">提示信息</span>
+					</li>
+					<li>
+						<label>确认密码:</label>
+						<input type="password" name="check_password" id="cpwd">
+						<span class="error_tip">提示信息</span>
+					</li>
+					<li>
+						<label>邮箱:</label>
+						<input type="text" name="email" id="email">
+						<span class="error_tip">提示信息</span>
+					</li>
+					<li class="agreement">
+						<input type="checkbox" name="allow" checked="checked" id="allow">
+						<label>同意”天天生鲜用户使用协议“</label>
+						<span class="error_tip2">提示信息</span>
+					</li>
+					<li class="reg_sub">
+						<input type="submit" value="注 册">
+					</li>
+				</ul>
+				
+				</form>
+			</div>
+
+	</div>
+	
+	</div>
+	<div class="bottom register_bottom">
+		<div class="links">
+			<a href="#">关于我们</a>
+			<span>|</span>
+			<a href="#">联系我们</a>
+			<span>|</span>
+			<a href="#">招聘人才</a>
+			<span>|</span>
+			<a href="#">友情链接</a>
+		</div>
+		<p>CopyRight © 2016 北京天天生鲜信息技术有限公司 All Rights Reserved</p>
+		<p class="number">电话：010-****888</p>    
+		<p class="addres">京ICP备*******8号</p>
+		
+	</div>
+
+</body>
+</html>
+

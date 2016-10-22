@@ -1,0 +1,190 @@
+$def with(todos)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>天天生鲜 首页</title>
+	<link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/main.css">
+	<script type="text/javascript" src="/static/js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="/static/js/slide.js"></script>
+	<script type="text/javascript" src="/static/js/main.js"></script>
+</head>
+<body>
+	<!-- 最上部 -->
+	<div class="top_info">
+		<div class="top_info_box1 ">
+			<div class="welcome fl">欢迎来到天天生鲜!</div>
+
+			<div class="user_message fr">
+				<div class="loging fl">
+					<a href="login.html">登录</a>
+					<span>|</span>
+					<a href="#">注册</a>
+				</div>
+				
+				<div class="user_name fl">
+				欢迎您:<em>张山</em>
+				</div>
+
+				<div class="user_chart fl">
+					<span>|</span>
+					<a href="#">我的购物车</a>
+					<span>|</span>
+					<a href="#">我的订单</a>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 中部搜素部分 -->
+	<div class="search_info clearfix">
+		<div class="logo ">
+			<a href="#"><img src="/static/images/logo.png" alt="天天生鲜网站"></a>
+		</div>
+		<div class="search ">
+			<form >
+				<input type="txt" name="search" placeholder="搜索" class="input fl "/>
+				<input type="submit" value="搜索" class="submit fr " />
+			</form>
+		</div>
+		<div class="shopping_cart ">
+			<a href="#" class="my_cart fl ">我的购物车</a>
+			<!-- <div class="my_cart fl ">我的购物车</div> -->
+			<a href="#" class="goods_number fr ">0</a>
+		</div>
+	</div>
+	<!-- 菜单栏 -->
+	<div class="menu">
+		<div class="menu_info">
+			<div class="sort fl"><a href="#">全部商品分类</a></div>
+			<div class="option fl">
+				<a href="#">首页</a>
+				<span>|</span>
+				<a href="#">手机生鲜</a>
+				<span>|</span>
+				<a href="#">抽奖</a>
+			</div>
+		</div>
+	</div>
+	<div class="main_wrap clearfix">
+		<div class="center fl">
+			<ul class="sub_menu ">
+				<li><a href="#" class='con1'>新鲜水果</a></li>
+				<li><a href="#" class='con2'>海鲜水产</a></li>
+				<li><a href="#" class='con3'>猪牛羊肉</a></li>
+				<li><a href="#" class='con4'>禽类蛋品</a></li>
+				<li><a href="#" class='con5'>新鲜蔬菜</a></li>
+				<li><a href="#" class='con6'>速冻食品</a></li>
+			</ul>	
+		</div>
+		<div class="slide fl">
+			<div class="left"></div>
+			<div class="right"></div>
+			<ul class="points ">
+			</ul>
+			
+			<ul class="slide_pic">
+				<li><a href="#"><img src="/static/images/slide.jpg" alt="幻灯片"></a></li>
+				<li><a href="#"><img src="/static/images/slide02.jpg" alt="幻灯片"></a></li>
+				<li><a href="#"><img src="/static/images/slide03.jpg" alt="幻灯片"></a></li>
+				<li><a href="#"><img src="/static/images/slide04.jpg" alt="幻灯片"></a></li>
+			</ul>
+			<!-- <ul class="slide_pic">
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+			</ul> -->
+		</div>
+			<div class="advs fr">
+				<a href="#"><img src="/static/images/advs_1.jpg" alt="广告一"></a>
+				<a href="#"><img src="/static/images/advs_2.jpg" alt="广告二"></a>
+			</div>
+	</div>
+	
+		<div class="menu_fruit">
+			<h3 class="fl">新鲜水果</h3>
+			<div class="hot_fruit1 fl" id="hot_fruit1">
+			<!-- 	<span>|</span>
+				<a href="#">鲜芒</a>
+				<a href="#">加州提子</a>
+				<a href="#">亚马逊牛油果</a> -->
+			</div>
+			<a href="#" class="fr more">查看更多 &gt;</a>
+		</div>
+		<div class="goods_list_con">
+			<a href="#" class="banner fl">
+				<img src="/static/images/banner01.jpg">
+			</a>
+			<ul class="goods_list fl" id="goods_list01">
+
+
+					<!-- 
+					<li>
+						<h4>草莓</h4>
+						<a href="#"><img src="images/goods_pic.jpg" alt="商品图片"></a>
+						<p>¥ 38.00</p>
+					</li> 
+
+					-->
+					
+				</ul>
+		</div>
+		<div class="menu_fruit">
+			<h3 class="fl">新鲜水果</h3>
+			<div class="hot_fruit1 fl" >
+				<span>|</span>
+				<a href="#">鲜芒</a>
+				<a href="#">加州提子</a>
+				<a href="#">亚马逊牛油果</a>
+			</div>
+			<a href="#" class="fr more">查看更多 &gt;</a>
+		</div>
+		<div class="goods_list_con">
+			<a href="#" class="banner fl">
+				<img src="/static/images/banner02.jpg">
+			</a>
+			<ul class="goods_list fl" >
+					<li>
+						<h4>草莓</h4>
+						<a href="#"><img src="/static/images/goods003.jpg" alt="商品图片"></a>
+						<p>¥ 38.00</p>
+					</li>
+					<li>
+						<h4>草莓</h4>
+						<a href="#"><img src="/static/images/goods003.jpg" alt="商品图片"></a>
+						<p>¥ 38.00</p>
+					</li>
+					<li>
+						<h4>草莓</h4>
+						<a href="#"><img src="/static/images/goods003.jpg" alt="商品图片"></a>
+						<p>¥ 38.00</p>
+					</li>
+					<li>
+						<h4>草莓</h4>
+						<a href="#"><img src="/static/images/goods003.jpg" alt="商品图片"></a>
+						<p>¥ 38.00</p>
+					</li>	
+				</ul>
+		</div>
+	
+	
+	<div class="bottom">
+		<div class="links">
+			<a href="#">关于我们</a>
+			<span>|</span>
+			<a href="#">联系我们</a>
+			<span>|</span>
+			<a href="#">招聘人才</a>
+			<span>|</span>
+			<a href="#">友情链接</a>
+		</div>
+		<p>CopyRight © 2016 北京天天生鲜信息技术有限公司 All Rights Reserved</p>
+		<p class="number">电话：010-****888</p>    
+		<p class="addres">京ICP备*******8号</p>
+		
+	</div>
+</body>
+</html>
+

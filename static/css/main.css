@@ -1,0 +1,527 @@
+body{
+	font-family: 'Microsoft Yahei';
+	font-size:12px;
+	
+	
+}
+.top_info{
+	
+	height: 29px;
+	background-color:#f7f7f7;
+	border-bottom: 1px solid #ddd;
+}
+.top_info_box1{
+	width: 1200px;
+	height: 29px;
+	margin: 0 auto;
+	line-height: 29px;
+	color: #666;
+}
+.fr{
+	float: right;
+}
+.fl{
+	float: left;
+}
+.user_name{
+	display: none;
+}
+.user_message a,.user_chart a,.loging a{
+	height: 29px;
+	line-height: 29px;
+	color: #666;
+	margin: 0px;
+}
+span{
+	margin: 0px 8px;
+}
+a:hover{
+	color: #f80;
+}
+.search_info{
+	width: 1200px;
+	height: 115px;
+	margin: 0 auto;
+	position: relative;
+
+}
+.logo{
+	position: absolute;
+	top:29px;
+	left: 17px;
+
+/*搜索所在栏样式定义*/
+}
+.search {
+	width: 618px;
+	position: absolute;
+	top:35px;
+	left: 291px;
+	
+}
+.input{
+	font-family: 'Microsoft Yahei';
+	width: 516px;
+	height: 38px;
+	border: 1px solid #37ab40;
+	text-indent: 38px;
+	color: #737272;
+	/*background-image: url(./images/toutiao-1.jpg);*/
+	background-image: url('../images/sprite.png');
+	background-repeat: no-repeat;
+	background-position:10px 11px;
+	outline: none;/*搜索框外框*/
+}
+.submit{
+	font-family: 'Microsoft Yahei';
+	border: 0px;
+	width: 100px;
+	height: 40px;
+	background-color: #37ab40;
+	font-size: 14px;
+	color: #fff;
+	cursor: pointer;
+	
+}
+
+.shopping_cart{
+	width: 200px;
+	height: 38px;
+	position: absolute;
+	top:34px;
+	right:0px;
+
+}
+.my_cart{
+	width: 158px;
+	height: 38px;
+	border: 1px solid #ddd;
+	text-indent: 55px;
+	background-image: url('../images/sprite.png');
+	background-repeat: no-repeat;
+	background-position:10px -40px;
+	line-height: 38px;
+	font-size: 14px;
+	color: #37ab40;
+}
+.goods_number{
+	width: 40px;
+	height:40px;
+	background-color: #f80;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+}
+.menu{
+	height: 40px;
+	border-bottom: 2px solid #37ab40;
+}
+.menu_info{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+
+}
+
+.sort{
+	width: 200px;
+	height: 40px;
+	background-color: #37ab40;
+	line-height: 40px;
+	font-size: 14px;
+	text-align: center;
+
+}
+.sort a{
+color:#fff; 
+}
+
+.option{
+	font-size: 14px;
+	line-height: 40px;
+	color: #666;
+	margin: 0 35px;
+}
+.option a{color: #666}
+.main_wrap{
+	width: 1200px;
+	margin: 0 auto;
+}
+.center{
+	height: 270px;
+	width: 198px;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+
+}
+.sub_menu li{
+	height: 44px;
+	width:198px;
+	border-bottom: 1px solid #eee;
+	text-indent: 71px;
+	background: url('../images/sprite.png') no-repeat 178px -385px ;
+}
+.center li a{
+	display: block;
+	width: 198px;
+	height: 44px;
+	font-family: 'Microsoft Yahei';
+	font-size: 14px;
+	line-height: 44px;
+	color: #000;
+	background: url('../images/sprite.png') no-repeat;
+}
+.center li .con1{background-position: 32px -90px;}
+.center li .con2{background-position: 32px -140px;}
+.center li .con3{background-position: 32px -190px;}
+.center li .con4{background-position: 32px -240px;}
+.center li .con5{background-position: 32px -290px;}
+.center li .con6{background-position: 32px -340px;}
+
+.slide{
+	height: 270px;
+	width:760px;
+	overflow: hidden;
+	position: relative;
+	
+}
+.slide_pic{
+	height: 270px;
+	width: 3040px;
+/*	background: url('../images/guanggao_list.png') no-repeat;*/
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 9990;
+	/*transition:all 3s ease;*/
+	
+}
+
+.slide_pic li,.slide_pic a{
+
+	width: 760px;
+	height: 270px;
+	position: absolute;
+	left:0;
+	top:0;
+}
+
+.left{
+	width: 15px;
+	height: 24px;
+	background: url('../images/sprite.png') no-repeat left -450px;
+	display: inline-block;
+	position: absolute;
+	left: 11px;
+	top: 122px;
+	z-index: 9999;
+	cursor: pointer;
+
+}
+.right{
+	width: 15px;
+	height: 24px;
+	background: url('../images/sprite.png') no-repeat left -500px;
+	display: inline-block;
+	position: absolute;
+	right: 11px;
+	top: 122px;
+	z-index: 9999;
+	cursor: pointer;
+}
+ul.points{display: inline-block;width:125px ;height: 15px;position: absolute;left: 315px;bottom: 8px;z-index: 9998;}
+.points li{display: inline-block;width: 11px;height: 11px;background-color: #9f9f9f;margin: 0 5px;border-radius: 50%;transition:all 1s ease;}
+.points .active{background-color: #cecece;}
+
+
+.advs{
+	font-size: 0;
+	width: 240px;
+	height: 270px;
+}
+.advs a{
+	display: block;
+	width: 240px;
+	height: 135px;
+}
+.menu_fruit{
+	height: 55px;
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 0px;
+	border-bottom: 2px solid #42ad46;
+}
+.menu_fruit h3{
+	display: inline-block;
+	font-size: 16px;
+	color: #37ab40;
+	margin-top:23px;
+	line-height: 32px;
+}
+
+.hot_fruit1{margin-top:30px;}
+.menu_fruit span,.menu_fruit a{
+	display: inline-block;
+	font-size: 12px;
+	line-height: 22px;
+	color: #666;
+	margin: 0 7px 5px;
+}
+.menu_fruit span{margin-left: 23px;}
+.menu_fruit .more{margin-top: 30px;line-height: 22px;}
+.menu_fruit h3:hover,.menu_fruit a:hover{color: #f80;}
+
+
+.goods_list_con{
+	height:300px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.banner{
+	width:200px;
+	height:300px;
+}
+/*.banner img{display: block;vertical-align: middle}*/
+
+.goods_list_con .goods_list{
+
+	width:1000px;
+	height:300px;
+}
+
+.goods_list_con .goods_list li{
+
+	width:249px;
+	height:299px;
+	border-right:1px solid #ededed;
+	border-bottom:1px solid #ededed;
+	float:left;
+
+}
+
+.goods_list_con .goods_list li:hover{
+	width:248px;
+	height:298px;
+	border:1px solid gold;
+}
+
+.goods_list li h4{
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	font-size: 14px;
+	color:#666;
+	font-weight:normal;
+}
+
+.goods_list li a{
+	display:block;
+	width:180px;
+	height:180px;
+	margin:0 auto;
+}
+
+.goods_list li p{
+	font-size:20px;
+	color:#c40000;
+	text-align:center;
+	margin-top:10px;
+}
+
+/*页面底部版权*/
+.bottom{
+	width: 100%;
+	height: 145px;
+	margin-top:30px;
+	border-top: 2px solid #4ab14e;
+	text-align: center;
+
+}
+.links{
+	display: inline-block;
+	margin-top:30px ;
+	line-height: 28px;
+	color: #4e4e4e;
+
+}
+.links a{
+	color: #4e4e4e;
+}
+.links a:hover{color: #f80;}
+.bottom p{line-height: 28px;}
+.bottom .number,.bottom .addres{
+	display: inline-block;
+	margin: 0px 8px;
+	color: #4e4e4e；
+}
+
+                          /*login页面*/
+ .page{
+ 	width: 1280px;
+ 	height: 729px;
+ 	margin: 0 auto;
+ 	
+ }
+ .page .log{
+ 	display: inline-block;
+ 	height: 76px;
+ 	width:193px;
+ 	margin: 31px 0 25px 164px;
+ }
+ .page .log_main{
+ 	height: 480px;
+ 	border-top ,border-top :1px solid #9bbf7e;
+ 	background-color: #518e17;
+ 	position: relative;
+ }
+ .cartoon{
+ 	display: inline-block;
+ 	width: 381px;
+ 	height: 315px;
+ 	margin: 90px 0 0 120px;
+ }
+ .slogan{
+ 	width: 30px;
+ 	height: 300px;
+ 	line-height: 36px;
+ 	position: absolute;
+ 	left:670px;
+ 	top:100px;
+ 	font-size: 30px;
+ 	color :#f0f9e8;
+ 	text-align: center;
+ }
+ .slogan span{ 
+ 	display: block;
+ 	line-height: 18px;
+ }
+ .login_table{
+ 	width: 368px;
+ 	height: 378px;
+ 	border: 1px solid #c6c6c5;
+ 	position: absolute;
+ 	top:48px;
+ 	right: 163px;
+ 	background: #fff;
+ }
+ .login_table .header{
+	width: 308px;
+	height: 70px;
+	border-bottom: 1px solid #e0e0e0;
+	margin: 0 auto;
+ }
+ .login_table .header h3{
+ 	display: inline-block;
+ 	height: 58px;
+ 	margin: 12px 0 0 44px;
+ 	font-size: 24px;
+ 	line-height: 58px;
+ 	color: #a8a8a8;
+ }
+ .register {
+ 	font-size: 16px;
+ 	line-height: 56px;
+ 	height: 56px;
+ 	text-indent: 28px;
+ 	background: url(../images/sprite.png) no-repeat  5px -530px;
+ 	margin: 14px 32px 0 0;
+ 	top: 14px;
+ 	right: 62px;
+ }
+ .register a{color: #5fb42a;}
+ .user_input{
+ 	width: 308px;
+ 	height: 220px;
+ 	margin: 20px auto 0;
+ }
+ .username,.password{
+ 	height: 38px;
+ 	width: 306px;
+ 	border: 1px solid #e0e0e0;
+ 	text-indent: 10px;
+ 	
+ }
+ .username_input,.password_input{
+ 	height: 38px;
+ 	width: 270px;
+ 	outline: none;
+ 	text-indent: 10px;
+ 	border: 0px;
+ }
+ .user_button{width: 26px;height: 38px;background: url('../images/sprite.png') no-repeat 0px -593px;}
+ .password_button{width: 26px;height: 38px;background: url('../images/sprite.png') no-repeat 0px -643px;}
+ .user_button:hover,.password_button:hover{cursor: pointer;}
+ 
+ .user_input .note{height: 27px;}
+ .note p{display: none;}
+
+.item{height: 14px;	margin-top:26px;}
+.item .input_check{height: 13px ;width: 13px;font-size: 0px;vertical-align:middle;}
+.item label{
+	margin-left: 6px;
+	font-size: 12px;
+	line-height: 12px;
+
+}
+.item .find_password{color: #4b4b4b}
+.login_index{
+	display: block;
+	height: 40px;
+	width: 308px;
+	background-color: #47aa34;
+	margin-top: 35px;
+	font-size: 24px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	border: 0px;
+}
+.login_index:hover{
+	cursor: pointer;
+}
+.bottom_login{
+	border: 0px;
+	margin-top: 25px;
+}
+.bottom_login .links{margin-top:25px;}
+
+
+/* 注册页 */
+.letter{width: 1200px;margin: 0px auto;height: }
+.left_logo{height:610px ;width:547px; float: left;background:;}
+.left_logo a{display: block;height: 76px;width: 193px;margin:49px 36px 0 315px;}
+.left_logo h3{font-size: 24px;color: #69a81e;margin: 25px 30px 0 280px;font-weight: normal;line-height: 24px;}
+.reg_banner{height:335px ;width:279px ;background: url("../images/register_03.png") no-repeat;float: right;}
+.right_message{height: 610px;width:653px ;float: right;}
+.register_title{height: 48px;width: 360px;margin: 53px 0 0 28px;border-bottom: 1px solid #e0e0e0;}
+.register_title h2{float: left;font-size: 24px;color: #a8a8a8;margin: 12px 0;line-height: 24px;font-weight: normal;}
+.register_title a{display:block;float: right;width: 50px;font-size: 16px;line-height: 16px;margin:17px 0px;color:#5fb42a;background:url(../images/boult.png) no-repeat 35px 0px;}
+.reg_form{margin: 30px 0 0 30px;}
+.reg_form li{width: 360px;height: 70px;position: relative;}
+.reg_form li label{width: 70px;height: 40px;font-size: 14px;line-height: 40px;color: #a8a8a8}
+.reg_form li input{width: 288px;height: 38px;border: 1px solid #e0e0e0;float: right;outline: none;text-indent: 5px;}
+.error_tip{position: absolute;left: 0px;bottom: 8px;color: red;display: none;}
+
+.reg_form .agreement input{height: 15px;width: 15px;float: left;margin-top:13px;}
+.reg_form .agreement label{height: 40px;width: 300px;margin-left:10px;float: left;}
+.agreement .error_tip2{display: none;position: absolute;left: 3px;bottom: 13px;color: red;}
+
+.reg_form .reg_sub input{height: 40px;width: 360px;background-color: #47aa34;color: #fff; font-size: 18px;cursor: pointer;}
+
+
+/*.register_message div{margin: 30px 0 0 25px;font-size: 14px;color: #a8a8a8;width:360px ;height: 40px;}
+.register_message div p{line-height: 40px;float: left;}
+.register_message div input{float: right;width: 288px;height: 38px;border: 1px solid #e0e0e0;outline: none;}
+.register_message div:nth-child(3),.register_message div:nth-child(2){margin-top: 0px;}
+.register_message .register_note{height:30px;}
+.register_note p{height:30px;font-size: 12px;color: #ff5400;line-height: 12px;display: none;}
+.register_message .agreen_check{height: 14px;margin-top: 43px;background-color: #f8f8f8}
+.register_message .agreen_check input{height: 14px;width: 14px;margin:2px;float: left;}
+.register_message .agreen_check label{font-size: 14px;margin-left:12px }
+.register_message .register_login{border: 0;display: block;height: 38px;width: 358px;margin: 43px 0px 0px 30px ;font-size: 16px;color: #fff;background-color: #47aa34;text-align: center;line-height: 38px;}*/
+
+
+.register_bottom{width: 1200px;margin: 0px auto;}
